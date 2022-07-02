@@ -15,14 +15,13 @@ const libraries = {
     title: 'React Three Fiber Notes',
     url: '/r3f-notes',
     github: 'https://github.com/the1kwajsucsh/r3f-experiments',
-    description:
-      'Notes and Techniques in R3F',
+    description: 'Notes and Techniques in R3F',
     // icon: '/zustand-icon.png',
-    image: 'https://docs.pmnd.rs/react-three-fiber-notes/share.jpg',
+    // image: 'https://docs.pmnd.rs/react-three-fiber-notes/share.jpg',
     docs: {
-      repo: 'pmndrs/website',
-      branch: 'docs',
-      dir: 'docs/zustand',
+      repo: 'the1kwajsucsh/docs',
+      branch: 'main',
+      dir: 'docs/r3f-notes',
     },
   },
 };
