@@ -1,37 +1,66 @@
-# Pmndrs libraries docs
+# Getting Started with Create React App
 
-## Current libraries
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber-notes)
-- [React Spring](https://docs.pmnd.rs/react-spring)
-- [Drei](https://docs.pmnd.rs/drei)
-- [Zustand](https://docs.pmnd.rs/react-three-fiber-notes)
-- [Jotai](https://docs.pmnd.rs/jotai)
-- [React Three A11y](https://docs.pmnd.rs/a11y)
-- [React Postprocessing](https://docs.pmnd.rs/react-postprocessing)
+## Available Scripts
 
-## How to run locally
+In the project directory, you can run:
 
-```sh
-git clone git@github.com:pmndrs/website.git
-cd website
-git checkout docs
-yarn
-yarn dev
-```
+### `yarn start`
 
-## How to add a library
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Add all the docs in `/docs/your-library`
-- Add the menu item for it in [components/LibSwitcher](https://github.com/pmndrs/website/blob/docs/components/LibSwitcher.tsx#L21)
-- Add SEO and share images in [components/Seo](https://github.com/pmndrs/website/blob/docs/components/Seo.tsx)
-- Add any redirects by creating a new page at `your-library/index.jsx` and placing the redirect in it.
-  - You should redirect to the first chapter of your docs.
-  - You can see an example [here](https://github.com/pmndrs/website/blob/docs/pages/react-spring/index.tsx)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Stack
+### `yarn test`
 
-- Next.js
-- Tailwind
-- MDX
-- React Spring
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+`npm run deploy`

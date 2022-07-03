@@ -1,64 +1,38 @@
 {
-  "name": "website--docs",
-  "version": "0.0.1",
-  "description": "",
-  "scripts": {
-    "dev": "next",
-    "start": "next start",
-    "build": "next build",
-    "export": "next export",
-    "test": "jest",
-    "lint": "eslint ."
-  },
-  "author": "KWG",
-  "license": "MIT",
+  "name": "doc",
+  "version": "0.1.0",
+  "homepage": "https://the1kwa1jsucsh.github.io/docs",
+  "private": true,
   "dependencies": {
-    "@headlessui/react": "^1.2.0",
-    "@react-three/fiber": "^8.0.27",
-    "@tailwindcss/aspect-ratio": "^0.3.0",
-    "@tailwindcss/typography": "^0.4.1",
-    "clsx": "^1.1.1",
-    "gray-matter": "^4.0.2",
-    "isomorphic-git": "^1.11.2",
-    "match-sorter": "^6.3.1",
-    "mdx-prism": "^0.3.4",
-    "memfs": "^3.4.1",
-    "next": "^12.0.4",
-    "next-mdx-remote": "^4.0.0",
-    "pretty-quick": "^3.1.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-spring": "^9.4.5",
-    "remark-gfm": "^3.0.1",
-    "three": "^0.142.0"
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "gh-pages": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-uuid": "^1.0.2",
+    "web-vitals": "^2.1.0"
   },
-  "devDependencies": {
-    "@types/node": "^16.11.10",
-    "@types/react": "^17.0.37",
-    "autoprefixer": "^10.2.6",
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^12.0.4",
-    "husky": "^7.0.4",
-    "postcss": "^8.4.4",
-    "prettier": "^2.5.0",
-    "tailwindcss": "^2.2.4",
-    "typescript": "4.4.4"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "printWidth": 100
-  },
-  "eslintConfig": {
-    "extends": "next",
-    "rules": {
-      "react/jsx-no-target-blank": 0,
-      "import/no-anonymous-default-export": 0
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
