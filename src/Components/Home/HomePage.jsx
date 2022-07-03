@@ -8,19 +8,7 @@ const HomePage = () => {
     {
       title: "Title",
       description: "description",
-      github: "https://google.com",
-      url: 'r3f'
-    },
-    {
-      title: "Title",
-      description: "description",
-      github: "https://google.com",
-      url: 'r3f'
-    },
-    {
-      title: "Title",
-      description: "description",
-      github: "https://google.com",
+      // github: "https://google.com",
       url: 'r3f'
     },
   ];
