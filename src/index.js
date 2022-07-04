@@ -11,7 +11,7 @@ import R3fIndex from "./Components/R3F/R3fIndex";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="r3f" element={<R3fIndex />} />
