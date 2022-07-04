@@ -364,3 +364,98 @@ audio, canvas, embed, iframe, img, object, svg, video {
     display: inline;
   }
 }
+
+.language {
+  background: #252b37 !important;
+  padding: 1.75em !important;
+  margin: 1.5em 0 !important;
+  border-radius: 0.75em;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.min-w-0 {
+  min-width: 0;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
+@media (min-width: 1024px) {
+  .lg\:pb-16 {
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:pl-6, .sm\:px-6 {
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:px-6 {
+    padding-right: 1.5rem;
+  }
+}
+
+.tracking-tighter {
+  letter-spacing: -.05em;
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgba(156,163,175,var(--tw-text-opacity));
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+  margin: 0;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+p {
+  font-size: .9375rem;
+  line-height: 1.35rem;
+  --tw-text-opacity: 1;
+  color: rgba(55,65,81,var(--tw-text-opacity));
+  margin: 0 0 1rem;
+  box-sizing: border-box;
+  border: 0 solid;
+  display: block;
+}
